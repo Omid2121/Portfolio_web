@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "mIjEv3roc7jUuTtAoIDFbL7If3S7yhLBItPd3cCrQhh+FpmhV0EyWmVX9t5DzwFLvrq9y2ay4DqzXqEPS/pVUw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\omid_\\Documents\\GitHub\\Portfolio_web\\Portfolio_Website\\Project\\Project.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\omid_\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\omid_\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

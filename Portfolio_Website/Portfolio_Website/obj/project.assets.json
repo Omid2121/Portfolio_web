@@ -1,32 +1,46 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "Project/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Project.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Project.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Project/1.0.0": {
+      "type": "project",
+      "path": "../Project/Project.csproj",
+      "msbuildProject": "../Project/Project.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "Project >= 1.0.0"
+    ]
   },
   "packageFolders": {
-    "C:\\Users\\omidh\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\omid_\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\omidh\\source\\repos\\Portfolio_Website\\Portfolio_Website\\Portfolio_Website.csproj",
+      "projectUniqueName": "C:\\Users\\omid_\\Documents\\GitHub\\Portfolio_web\\Portfolio_Website\\Portfolio_Website\\Portfolio_Website.csproj",
       "projectName": "Portfolio_Website",
-      "projectPath": "C:\\Users\\omidh\\source\\repos\\Portfolio_Website\\Portfolio_Website\\Portfolio_Website.csproj",
-      "packagesPath": "C:\\Users\\omidh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\omidh\\source\\repos\\Portfolio_Website\\Portfolio_Website\\obj\\",
+      "projectPath": "C:\\Users\\omid_\\Documents\\GitHub\\Portfolio_web\\Portfolio_Website\\Portfolio_Website\\Portfolio_Website.csproj",
+      "packagesPath": "C:\\Users\\omid_\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\omid_\\Documents\\GitHub\\Portfolio_web\\Portfolio_Website\\Portfolio_Website\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\omidh\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\omid_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -37,7 +51,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\omid_\\Documents\\GitHub\\Portfolio_web\\Portfolio_Website\\Project\\Project.csproj": {
+              "projectPath": "C:\\Users\\omid_\\Documents\\GitHub\\Portfolio_web\\Portfolio_Website\\Project\\Project.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -66,7 +84,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

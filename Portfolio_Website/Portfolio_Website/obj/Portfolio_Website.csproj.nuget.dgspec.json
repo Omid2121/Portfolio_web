@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\omidh\\source\\repos\\Portfolio_Website\\Portfolio_Website\\Portfolio_Website.csproj": {}
+    "C:\\Users\\omid_\\Documents\\GitHub\\Portfolio_web\\Portfolio_Website\\Portfolio_Website\\Portfolio_Website.csproj": {}
   },
   "projects": {
-    "C:\\Users\\omidh\\source\\repos\\Portfolio_Website\\Portfolio_Website\\Portfolio_Website.csproj": {
+    "C:\\Users\\omid_\\Documents\\GitHub\\Portfolio_web\\Portfolio_Website\\Portfolio_Website\\Portfolio_Website.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\omidh\\source\\repos\\Portfolio_Website\\Portfolio_Website\\Portfolio_Website.csproj",
+        "projectUniqueName": "C:\\Users\\omid_\\Documents\\GitHub\\Portfolio_web\\Portfolio_Website\\Portfolio_Website\\Portfolio_Website.csproj",
         "projectName": "Portfolio_Website",
-        "projectPath": "C:\\Users\\omidh\\source\\repos\\Portfolio_Website\\Portfolio_Website\\Portfolio_Website.csproj",
-        "packagesPath": "C:\\Users\\omidh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\omidh\\source\\repos\\Portfolio_Website\\Portfolio_Website\\obj\\",
+        "projectPath": "C:\\Users\\omid_\\Documents\\GitHub\\Portfolio_web\\Portfolio_Website\\Portfolio_Website\\Portfolio_Website.csproj",
+        "packagesPath": "C:\\Users\\omid_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\omid_\\Documents\\GitHub\\Portfolio_web\\Portfolio_Website\\Portfolio_Website\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\omidh\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\omid_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -30,7 +26,11 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\omid_\\Documents\\GitHub\\Portfolio_web\\Portfolio_Website\\Project\\Project.csproj": {
+                "projectPath": "C:\\Users\\omid_\\Documents\\GitHub\\Portfolio_web\\Portfolio_Website\\Project\\Project.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -59,7 +59,62 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\omid_\\Documents\\GitHub\\Portfolio_web\\Portfolio_Website\\Project\\Project.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\omid_\\Documents\\GitHub\\Portfolio_web\\Portfolio_Website\\Project\\Project.csproj",
+        "projectName": "Project",
+        "projectPath": "C:\\Users\\omid_\\Documents\\GitHub\\Portfolio_web\\Portfolio_Website\\Project\\Project.csproj",
+        "packagesPath": "C:\\Users\\omid_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\omid_\\Documents\\GitHub\\Portfolio_web\\Portfolio_Website\\Project\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\omid_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

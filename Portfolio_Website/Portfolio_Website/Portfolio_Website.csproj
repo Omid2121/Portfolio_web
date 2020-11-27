@@ -5,7 +5,16 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="Pages\Shared\StyleSheet.css" />
+    <None Include="wwwroot\applications\Application.pdf" />
+    <None Include="wwwroot\applications\CV.pdf" />
+    <None Include="wwwroot\css\StyleSheet.css" />
+    <None Include="wwwroot\image\497_449074_management.hero.jpg" />
+    <None Include="wwwroot\image\dark background.jpg" />
+    <None Include="wwwroot\image\me.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Project\Project.csproj" />
   </ItemGroup>
 
 </Project>
