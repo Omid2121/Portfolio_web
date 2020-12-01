@@ -239,7 +239,7 @@ section {
 .card2 {
     background: #3c4852;
     padding: 10px 20px;
-    margin: 0 20px;
+    margin: 10px 20px;
     width: calc(33% - 20px);
     min-height: 200px;
     display: flex;
